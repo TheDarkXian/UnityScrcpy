@@ -73,7 +73,13 @@ UnityScrcpy/
 
 - 从 Unity Asset Store 搜索并导入 "Odin Inspector"
 
-### 2. 配置设备连接
+### 2.下载release版本
+
+​	1.https://github.com/TheDarkXian/UnityScrcpy/releases
+
+​	2.解压后放到unity工程目录Assets/Script文件夹下。
+
+### 3. 配置设备连接
 
 1. 在 Unity 中创建配置资源：
 
@@ -91,7 +97,7 @@ UnityScrcpy/
    - **手机 IP 端口**：ADB 端口（默认 `5555`）
    - **分辨率**：设备分辨率（连接后会自动获取）
 
-### 3. 连接设备
+### 4. 连接设备
 
 #### 方式一：通过 Unity 窗口
 
@@ -109,7 +115,7 @@ adb tcpip 5555
 adb connect 192.168.1.100:5555
 ```
 
-### 4. 使用控制功能
+### 5. 使用控制功能
 
 连接成功后，在配置资源的 Inspector 中会显示控制面板：
 
