@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85c745468755d74c8f317e055c9135f, type: 3}
+  m_Name: "\u9ED8\u8BA4\u8BBE\u7F6E"
+  m_EditorClassIdentifier: 
+  itemName: "\u9ED8\u8BA4\u8BBE\u7F6E"
+  ffmpegPath: F:/Project/UnityProject/TestPorject/Assets/Plugins/UnityScrcpy/ffmpeg/bin/ffmpeg.exe
+  scrcpyPath: F:/Project/UnityProject/TestPorject/Assets/Plugins/UnityScrcpy/scrcpy/scrcpy.exe
+  abdPath: F:/Project/UnityProject/TestPorject/Assets/Plugins/UnityScrcpy/scrcpy/adb.exe
+  phoneIp: 192.168.31.79
+  phonePort: 5555
+  videoPort: 1234
+  videoStreamUrl: tcp://localhost:1234
+  inputFormat: 0
+  enableFPS: 0
+  resolution: {x: 1080, y: 2400}
+  enableDebug: 1
+  enableScrcpyWindow: 0
+  backgroundColor: {r: 0.18039216, g: 0.18039216, b: 0.18039216, a: 1}
+  deviceFrameColor: {r: 0, g: 0, b: 0, a: 1}
+  screenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  inputText: 
+  appPackageName: com.example.app
+  appSearchFilter: 
