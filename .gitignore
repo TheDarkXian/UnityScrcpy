@@ -101,3 +101,4 @@ InitTestScene*.unity*
 /scrcpy
 /ffmpeg
 *.meta
+/Release
