@@ -142,47 +142,6 @@ UnityScrcpy/
 - 存储连接设置
 - 提供控制按钮界面
 
-## 使用示例
-
-### 基本使用流程
-
-```csharp
-// 1. 获取窗口实例
-var gameView = EditorWindow.GetWindow<GameView>();
-
-// 2. 设置配置数据
-gameView.SetData(fakeGameViewData);
-
-// 3. 连接设备
-gameView.ConnectPhone();
-
-// 4. 开始视频流
-gameView.StartFFmpegVideoStreamming();
-```
-
-### 使用 AdbHelper 直接控制
-
-```csharp
-// 创建 AdbHelper 实例
-var adb = new AdbHelper(adbPath, debugMode: true);
-
-// 连接设备
-adb.ConnectDevice("192.168.1.100", "5555");
-
-// 点击屏幕
-adb.Click(540, 960);
-
-// 发送按键
-adb.Back();
-adb.Home();
-
-// 输入文本
-adb.InputText("Hello World");
-
-// 启动应用
-adb.LaunchApp("com.example.app");
-```
-
 ## 坐标系统
 
 ### 坐标转换
